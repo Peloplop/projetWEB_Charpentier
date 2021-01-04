@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/majora.css">
+	<title>ZELDAMARKET</title>
+  </head>
+  <body>
+	<header>
+		<figure>
+			<h1><img id="triforce" src="CSS/images/triforce.png" alt="triforce"><span title="first-letter">Z</span>ELDA MARKET</h1>
+		</figure>
+		<nav>
+			<ul>
+				<li><a href="Zeldamarket_accueil.html">ACCUEIL</a></li>
+				<li><a href="Zeldamarket_produits.html">PRODUITS</a></li>
+				<li><a href="Zeldamarket_panier_vide.html">PANIER</a></li>
+				<li>
+					<form action="Zeldamarket_recherche.html" method="POST">
+						<label>RECHERCHER : <input name="Rechercher"></label>
+						<input type="submit" value="valider">
+					</form>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Masque de Majora</h2>
+		<section>
+			<figure>
+				<img id="majora" src="CSS/images/majora.png" alt="Masque de majora">
+				<p><span title="prix">13000	</span><img id="rubis" src="CSS/images/rubis.png" alt="rubis"></p>
+			</figure>
+			<article title="description">
+				<p>Masque aux pouvoirs diaboliques animé par une volonté maléfique et destructrice.
+				Capable de détruire le monde, ce masque possède une conscience et a la capacité de prendre peu à peu le contrôle de son porteur jusqu'à le posséder entièrement.
+				Essayez le et voyez par vous-même ! ;)</p>
+			</article>
+			<article title="paiement">
+				<h3>En rupture de stock</h3>
+				<p><span title="prix">13000	</span><img id="rubis" src="CSS/images/rubis.png" alt="rubis"></p>
+				<form action="Zeldamarket_panier_plein.html" method="POST">
+					<label>Quantité : <input type="number" name="Quantité" min="1" max="99" step="1"></label>
+					<input type="submit" value="ajouter au panier">
+				</form>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<ul>
+			<li>Réalisé avec Notepad++</li>
+			<li>HTML5 valide</li>
+			<li>CSS valide</li>
+		</ul>
+		<p><a href="Zeldamarket_presentation.html">Qui suis-je ?</a></p>
+		<p><a href="Zeldamarket_details_techniques.html">détails techniques</a></p>
+	</footer>
+</body>
+</html>
