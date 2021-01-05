@@ -1,0 +1,185 @@
+body
+{
+	margin: auto;
+	max-width: 65vw;
+	background-image: url(images/fond_zelda.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+a[href$=".html"]
+{
+	color: rgba(167, 0, 0, 1);
+	text-decoration: none;
+}
+
+a[href$=".html"]:hover
+{
+	color: rgba(100, 0, 0, 1);
+	text-decoration: none;
+}
+
+header figure h1 img
+{
+	width: 201px;
+	height: 175px;
+}
+
+header figure h1
+{
+	font-family: Impact;
+	font-size: 70px;
+	color: #A70000;
+}
+
+header figure h1 span[title=first-letter]
+{
+	font-size: 150%;
+}
+
+header nav
+{
+	clear: left;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+header nav ul li
+{
+	display: inline-block;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 22px;
+	color: #A70000;
+	margin-right: 3em;
+	margin-left: 3em;
+}
+
+main
+{
+	background-color: rgba(255, 255, 255, 0.9);
+	padding-top: 1px;
+}
+
+main h2
+{
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgba(167, 0, 0, 0.7);
+	padding-bottom: 10px;
+	border-bottom-style: ridge;
+	border-bottom-color: #A70000;
+	border-bottom-width: 1px;
+	margin-bottom: 0px;
+}
+
+main section
+{
+	display: flex;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+
+main section figure
+{
+	margin-right: 5em;
+	padding-top: 9px;
+}	
+
+main section figure img
+{
+	width: 51px;
+	height: 200px;
+}
+
+main section figure p
+{
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	color: #A70000;
+}
+
+span[title=prix]
+{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+img[id=rubis]
+{
+	width: 13px;
+	height: 25px;
+}
+
+article[title=description]
+{
+	font-family: Trebuchet MS;
+	font-size: 17px;
+	color: rgba(167, 0, 0, 0.7);
+	text-align: justify;
+	width: 20em;
+	margin-right: 3em;
+}
+
+article[title=paiement]
+{
+	font-family: Trebuchet MS;
+	font-size: 19px;
+	text-align: justify;
+	color: rgba(167, 0, 0, 1);
+	border-left-style: ridge;
+	border-left-color: #A70000;
+	border-left-width: 1px;
+	padding-left: 1.5em;
+}
+
+article[title=paiement] form
+{
+	padding-top: 2em;
+}
+
+article[title=paiement] label
+{
+	display: block;
+}
+
+article[title=paiement] form input[type=submit]
+{
+	margin-top: 3em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+footer
+{
+	background-color: rgba(255, 255, 255, 0.9);
+	border-top-style: solid;
+	border-top-color: #A70000;
+	border-top-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #A70000;
+	border-bottom-width: 3px;
+}
+
+footer ul li
+{
+	display: inline-block;
+	font-family: Trebuchet MS;
+	font-size: 15px;
+	color: rgba(167, 0, 0, 0.7);
+	margin-right: 2em;
+}
+
+footer p
+{
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 15px;
+	color: #A70000;
+}
