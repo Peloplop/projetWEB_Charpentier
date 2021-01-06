@@ -2,6 +2,7 @@ body
 {
 	margin: auto;
 	max-width: 1250px;
+	min-width: 1000px;
 	background-image: url(images/fond_zelda.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
