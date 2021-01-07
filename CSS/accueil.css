@@ -84,7 +84,9 @@ main section
 	display: inline-block;
 	margin-right: 3em;
 	margin-left: 3em;
-	text-decoration: line-through;
+	font-family: Trebuchet MS;
+	font-size: 20px;
+	color: #A70000;
 }
 
 main section figure img
@@ -101,9 +103,7 @@ img[id=epee]
 
 main section figure p
 {
-	font-family: Trebuchet MS;
-	font-size: 20px;
-	color: #A70000;
+	text-decoration: line-through;
 }
 
 span[title=promo]
