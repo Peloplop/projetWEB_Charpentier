@@ -79,14 +79,30 @@ main h2
 	border-bottom-width: 1px;
 }
 
-main section figure
+main section
 {
 	display: inline-block;
-	margin-right: 3em;
-	margin-left: 3em;
+	margin-right: 2.5em;
+	margin-left: 2.5em;
 	font-family: Trebuchet MS;
 	font-size: 20px;
 	color: #A70000;
+	margin-bottom: 2em;
+}
+
+h3
+{
+	font-size: 20px;
+}
+
+h4
+{
+	font-size: 20px;
+}
+
+h5
+{
+	font-size: 20px;
 }
 
 main section figure img
@@ -101,7 +117,7 @@ img[id=epee]
 	height: 200px;
 }
 
-span[title=ancien prix]
+span[title=ancien_prix]
 {
 	text-decoration: line-through;
 }
