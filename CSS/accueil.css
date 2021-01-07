@@ -101,7 +101,7 @@ img[id=epee]
 	height: 200px;
 }
 
-main section figure p
+span[title=ancien prix]
 {
 	text-decoration: line-through;
 }
