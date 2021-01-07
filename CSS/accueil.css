@@ -84,6 +84,7 @@ main section
 	display: inline-block;
 	margin-right: 3em;
 	margin-left: 3em;
+	text-decoration: line-through;
 }
 
 main section figure img
